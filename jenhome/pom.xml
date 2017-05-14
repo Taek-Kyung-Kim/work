@@ -10,9 +10,12 @@
   <name>jenhome</name>
   <url>http://maven.apache.org</url>
   <build>
-  <resource>
+  <resources>
   <directory>src/main/java</directory>
-  <include><include>**/*.xml</include></include><resource><directory>src/main/resources</directory></resource></resource></build>
+  <include><include>**/*.xml</include></include><resource><directory>src/main/resources</directory>
+    </resource>
+    </resources>
+  </build>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
