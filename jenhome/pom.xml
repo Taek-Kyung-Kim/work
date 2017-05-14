@@ -10,11 +10,11 @@
   <name>jenhome</name>
   <url>http://maven.apache.org</url>
   <build>
-  <resources>
+  <resource>
   <directory>src/main/java</directory>
   <include><include>**/*.xml</include></include><resource><directory>src/main/resources</directory>
     </resource>
-    </resources>
+    </resource>
   </build>
 
   <properties>
